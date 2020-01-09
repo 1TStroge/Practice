@@ -36,7 +36,7 @@ Page({
         url: app.globalUrl.wbUrl + word + app.globalData.wbkey,
         header: {
           'Content-type': 'application/json',
-          key: 'bc4e0d50-295f-4919-a473-df2edb7abd8b'
+          key: ''
         },
         success: function (res) {
           callback(res.data)
@@ -49,8 +49,8 @@ Page({
         method: 'GET',
         header: {
           'Content-type': 'application/json',
-          app_id: '68e98fa9',
-          app_key: '4e2aa5aefab92e29fd2919b420569efd'
+          app_id: '',
+          app_key: ''
         },
         success: function (res) {
           oxfordsj(res.data.results, callback)
