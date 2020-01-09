@@ -1,0 +1,11 @@
+<import src="citiao-template/citiao-template.wxml" />
+<import src="cixin-template/cixin-template.wxml" />
+<template name="neirongTemplate">
+  <view class="neirong">
+    <template is="cixinTemplate" data="{{...lexicalCategory}}"/>
+
+    <block wx:for="{{entries}}" wx:for-item="item" wx:key="key">
+     <template is="citiaoTemplate" data="{{...item}}" />
+    </block>
+  </view>
+</template>

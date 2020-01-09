@@ -1,0 +1,73 @@
+/**index.wxss**/
+@import "neirong-template/neirong-template.wxss";
+@import "neirong-template/pronunc-template/pronunc-template.wxss";
+.w{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bt{
+  margin: 1rpx;
+  color: #00bdf2;
+  font-size: 20px;
+  font-family: PingFangSC-regular;
+}
+
+logo{
+  width: 100%;
+}
+
+ .logo_img{
+
+   margin-top: 60rpx;
+   margin-bottom: 40rpx;
+   width: 19.11rem;
+   height: 3.38rem;
+ }
+
+ .input{
+   display: block;
+   width: 90%;
+   margin-bottom: 40rpx;
+   margin-top: 10rpx;
+ }
+
+ .input_border{
+   border: 1px;
+   height: 100rpx;
+   border-radius: 10rpx;
+   border-style: solid;
+   border-color: #d9d9d9;
+ }
+.wz{
+  width: 50%;
+  margin: 30rpx;
+  font-size: 40rpx;
+}
+ .zwf{
+   flex-direction: row;
+   color: #70757a;
+   height: 70rpx;
+ }
+
+ .input_img{
+   margin-top: 10rpx;
+   margin-left: 180rpx;
+   width: 80rpx;
+   height: 80rpx;
+ }
+
+ .icon{
+   width: 100%;
+   height: 80rpx;
+   display: flex;
+   flex-direction: row;
+ }
+ 
+ .jieshi{
+   width: 90%;
+   padding:10rpx;
+   box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+   border-radius: 10rpx;
+ }

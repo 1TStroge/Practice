@@ -1,0 +1,7 @@
+<template name="xiangxiLijuTemplate">
+
+<view class="liju">
+  <text>"{{text}}"</text>
+</view>
+
+</template>

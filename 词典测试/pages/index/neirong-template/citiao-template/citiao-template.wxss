@@ -1,0 +1,15 @@
+@import "../citiao-xiangxi-template/citiao-xiangxi-template.wxss";
+ 
+ .citiao{
+   margin-left: 30rpx;
+   margin-top: 5rpx;
+ }
+ .index{
+   display: flex;
+   flex-direction: row;
+   margin-top: 5rpx;
+ }
+ .index-numb{
+   width: 20rpx;
+   margin-right:15rpx;
+ }

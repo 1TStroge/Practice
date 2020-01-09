@@ -1,0 +1,2 @@
+@import "cixin-template/cixin-template.wxss";
+@import "citiao-template/citiao-template.wxss"

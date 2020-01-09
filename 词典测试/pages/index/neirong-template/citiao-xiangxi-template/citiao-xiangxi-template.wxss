@@ -1,0 +1,23 @@
+@import "xiangxi-liju-template/xiangxi-liju-template.wxss";
+@import "xiangxi-zhushi-template/xiangxi-zhushi-template.wxss";
+
+.citiao-xiangxi {
+  margin: 0 20 20 0rpx;
+  display: fles;
+  flex-direction: column;
+}
+
+.xiangxiLiju {
+  display: flex;
+  flex-direction: column;
+}
+
+.citiaohj {
+  line-height: 40rpx;
+  font-weight: 700;
+}
+
+.citiaozhushi {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,13 @@
+<template name="pronuncTemplate">
+  <view class="fayin">
+    <view class="fayin-img-waikuang">
+      <image src="../img/sound.png" class="fayin_img" bindtap="pronunce"></image>
+    </view>
+
+    <view class="fayin-yinbiao-waikuang">
+      <text class="yinbiao">/{{phoSpell}}/</text>
+    </view>
+
+  </view>
+
+</template>

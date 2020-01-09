@@ -1,0 +1,6 @@
+.liju{
+  color: #70757a;
+   font-size: 15px;
+   line-height:30rpx;
+   margin-top: 5rpx;
+}

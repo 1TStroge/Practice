@@ -1,0 +1,9 @@
+ @import "../xiangxi-liju-template/xiangxi-liju-template.wxss";
+
+ .zhushiliju{
+   margin-left: 20rpx;
+ }
+ .xiushixiushi{
+   display: flex;
+   flex-direction: row;
+ }

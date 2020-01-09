@@ -1,0 +1,6 @@
+ .cixin{
+   margin-left: 10rpx;
+   color: #70757a;
+   font-size: 15px;
+   font-style:italic;
+ }

@@ -1,0 +1,22 @@
+<import src="../xiangxi-liju-template/xiangxi-liju-template.wxml" />
+
+<template name="xiangxiZhushiTemplate">
+
+  <view class="xiushixiushi">
+    <view>
+      <text>·  </text>
+    </view>
+    <view>
+      <text>{{definitions}}</text>
+    </view>
+  </view>
+
+  <block wx:for="{{examples}}" wx:for-item="item" wx:key="key">
+
+    <view class="zhushiliju">
+      <template is="xiangxiLijuTemplate" data="{{...item}}" />
+    </view>
+
+  </block>
+
+</template>
