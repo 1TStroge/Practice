@@ -2,7 +2,7 @@
 App({
   globalData: {
     userInfo: null,
-    wbkey: '?key=bc4e0d50-295f-4919-a473-df2edb7abd8b'
+    wbkey: ''
   },
 
   globalUrl:{
